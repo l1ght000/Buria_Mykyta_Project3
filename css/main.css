@@ -1,0 +1,51 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+#Box1{
+    background-color: pink;
+    height: 150px;
+}
+#Box2{
+    background-color: red;
+    margin-top: 10px;
+    height: 150px;
+}
+#Box3{
+    background-color: grey;
+    margin-top: 10px;
+    height: 150px;
+    
+}
+#Box4{
+    background-color: brown;
+    margin-top: 10px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 640px) {
+    #Box3, #Box4{
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 641px){
+    #Box1{
+        background-color: blue;
+    }
+    #Box2{
+        background-color: purple;
+    }
+    
+    #Box3{
+        background-color: grey;
+    }
+    #Box4{
+        background-color: brown;
+    }
+
+}
